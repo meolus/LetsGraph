@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsGraph", "LetsGraph\LetsGraph.csproj", "{0961C69D-6DBB-4FBD-B85E-4C51BE220F02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsGraph.Model", "LetsGraph.Model\LetsGraph.Model.csproj", "{CE7E2CE2-AFEA-4016-B821-11D26A3F70B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsGraph.ModelTest", "LetsGraph.ModelTest\LetsGraph.ModelTest.csproj", "{8BEF88C8-1182-445D-A716-3C1CFF5F9609}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0961C69D-6DBB-4FBD-B85E-4C51BE220F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0961C69D-6DBB-4FBD-B85E-4C51BE220F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0961C69D-6DBB-4FBD-B85E-4C51BE220F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7E2CE2-AFEA-4016-B821-11D26A3F70B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7E2CE2-AFEA-4016-B821-11D26A3F70B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7E2CE2-AFEA-4016-B821-11D26A3F70B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7E2CE2-AFEA-4016-B821-11D26A3F70B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BEF88C8-1182-445D-A716-3C1CFF5F9609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEF88C8-1182-445D-A716-3C1CFF5F9609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEF88C8-1182-445D-A716-3C1CFF5F9609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEF88C8-1182-445D-A716-3C1CFF5F9609}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
