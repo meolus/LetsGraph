@@ -52,8 +52,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Graph\EdgeTests.cs" />
-    <Compile Include="Graph\DigraphTests.cs" />
+    <Compile Include="Base\Graph\DigraphTests.cs" />
+    <Compile Include="Base\Graph\EdgeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

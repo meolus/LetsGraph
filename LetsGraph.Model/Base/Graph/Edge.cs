@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LetsGraph.Model.Graph
+namespace LetsGraph.Model.Base.Graph
 {
     /// <summary>
     /// A directed edge.

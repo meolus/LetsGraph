@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LetsGraph.Model.Graph
+namespace LetsGraph.Model.Base.Graph
 {
     /// <summary>
     /// Directed graph with nodes and edges.
@@ -206,6 +206,28 @@ namespace LetsGraph.Model.Graph
             _edgeCount -= removedEdgeCount;
 
             return true;
+        }
+
+
+        /// <summary>
+        /// Returns enumeration of incoming edges of node.
+        /// </summary>
+        /// <param name="node">Reference node.</param>
+        /// <returns>Enumeration of incoming edges.</returns>
+        public IEnumerable<TEdge> GetIncomingEdges(TNode node)
+        {
+            return _node2IncomingEdges[node];
+        }
+
+
+        /// <summary>
+        /// Returns enumeration of outgoing edges of node.
+        /// </summary>
+        /// <param name="node">Reference node.</param>
+        /// <returns>Enumeration of outgoing edges.</returns>
+        public IEnumerable<TEdge> GetOutgoingEdges(TNode node)
+        {
+            return _node2OutgoingEdges[node];
         }
     }
 }

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using LetsGraph.Model.Graph;
+using LetsGraph.Model.Base.Graph;
 
-namespace LetsGraph.ModelTest.Graph
+namespace LetsGraph.ModelTest.Base.Graph
 {
     [TestClass]
     public class DigraphTests

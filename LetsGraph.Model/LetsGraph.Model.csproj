@@ -127,8 +127,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Graph\Edge.cs" />
-    <Compile Include="Graph\Digraph.cs" />
+    <Compile Include="Base\Graph\Digraph.cs" />
+    <Compile Include="Base\Graph\Edge.cs" />
+    <Compile Include="Base\Item.cs" />
+    <Compile Include="Base\ItemType.cs" />
+    <Compile Include="Base\Repository.cs" />
+    <Compile Include="Base\Relation.cs" />
+    <Compile Include="Base\RelationType.cs" />
+    <Compile Include="Exporter\ExportToGraphML.cs" />
+    <Compile Include="Parser\ParseFileSystem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
